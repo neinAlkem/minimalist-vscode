@@ -1,0 +1,119 @@
+{
+  "window.zoomLevel": 0.5,
+  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "single",
+  "workbench.layoutControl.enabled": false,
+  // "workbench.startupEditor": "none",
+  // "workbench.tips.enabled": false,
+  "workbench.colorCustomizations": {
+      "editorSuggestWidget.background": "#231739",
+      "sideBar.background" : "#191521",
+      "list.activeSelectionBackground" : "#231739",
+      "list.inactiveSelectionBackground" : "#231739",
+      "list.focusBackground" : "#231739",
+      "list.hoverBackground" : "#231739",
+      "editor.minimap.enabled": false,
+      "editor.guides.indentation": false,
+      "editor.renderWhitespace": "none",
+      "editor.renderLineHighlight": "none",
+      // "editor.matchBrackets": "never"
+      // "editor.lightbulb.enabled": "off",
+      "editor.hover-.enabled": false,
+      // "editor.showFoldingControls": "never"
+      "editor.scrollbar.horizontal": "hidden",
+      "editor.scrollbar.vertical": "hidden",
+      "editor.overviewRulerBorder": false,
+      "editor.cursorBlinking": "solid",
+      "editor.cursorSmoothCaretAnimation": "on",
+      "editor.tabSize": 2,
+      "editor.detectIndentation": false,
+      "editor.fontFamily": "Space Mono, Menlo, Monaco, 'Courier New', monospace",
+      "editor.fontSize": 14,
+      "editor.fontLigatures": true,
+      "editor.lineHeight": 2,
+      "breadcrumbs.enabled": true,
+      "explorer.compactFolders": false, 
+      "git.decorations.enabled": false,
+      "scm.diffDecorations": "none",
+      "files.autoSave": "afterDelay",
+      "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+      "terminal.integrated.tabs.enabled": false,
+      "terminal.integrated.lineHeight": 1.6      
+  },
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  // "editor.matchBrackets": "never"
+  // "editor.lightbulb.enabled": "off",
+  "editor.hover.enabled": false,
+  // "editor.showFoldingControls": "never"
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 2,
+  "breadcrumbs.enabled": false,
+  "explorer.compactFolders": false,
+  "git.decorations.enabled": false,
+  "scm.diffDecorations": "none",
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.lineHeight": 1.6,
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hidden"
+  },
+  "apc.font.family": "Space Mono, Menlo, Monaco, 'Courier New', monospace",
+  "apc.menubar.compact": false,
+  "apc.activityBar": {
+    "position": "bottom",
+    "size": 50,
+    "itemSize": 30,
+    "itemMargin": 10
+  },
+  "apc.header": {
+    "height": 35
+  },
+  "apc.sidebar.titlebar": {
+    "height": 35,
+    "fontSize": 12
+  },
+  "apc.statusBar": {
+    "position": "bottom",
+    "height": 22,
+    "fontSize": 12
+  },
+  "apc.listRow": {
+    "lists": [
+      "explorer-folders-view",
+      "quick-input-list"
+    ],
+    "height": 30
+  },
+  "apc.stylesheet": {
+    ".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
+    ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
+    ".sidebar .title-label": "padding: 0 !important",
+   ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+   ".sidebar": "border: none !important",
+   ".quick-input-list-row div": "display: flex !important; align-items: center !important",
+   ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
+   ".sidebar .title-label h2": "line-height: 2.8 !important",
+   ".monaco-editor .scroll-decoration": "display: none !important"
+  },
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file:///c:/Users/Bagas/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+  ] 
+}
