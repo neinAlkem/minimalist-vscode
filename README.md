@@ -1,6 +1,8 @@
 # VS Code Minimalist Settings
 This repository contains a settings.json file designed to configure Visual Studio Code (VS Code) for a minimalist and distraction-free coding environment inpsired by Igor Babko (Youtube)
 
+![image](Screenshot2025-02-19-194220.png)
+
 ## Configuration Overview
 General Settings
 - Window Zoom Level: Set to 0.5 to increase the overall UI size.
