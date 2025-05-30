@@ -1,142 +1,83 @@
 {
-    "window.zoomLevel": 0.5,
-    "workbench.colorTheme": "Aura Dark",
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.hidesExplorerArrows": true,
-    "workbench.tree.renderIndentGuides": "none",
-    "workbench.sideBar.location" : "left",
-    "workbench.editor.showTabs": "single",
-    "workbench.layoutControl.enabled": false,
-    // "workbench.startupEditor": "none",
-    // "workbench.tips.enabled": false,
-    "workbench.colorCustomizations": {
-        "editorSuggestWidget.background": "#231739",
-        "sideBar.background" : "#191521",
-        "list.activeSelectionBackground" : "#231739",
-        "list.inactiveSelectionBackground" : "#231739",
-        "list.focusBackground" : "#231739",
-        "list.hoverBackground" : "#231739",
-        "editor.minimap.enabled": false,
-        "editor.guides.indentation": false,
-        "editor.renderWhitespace": "none",
-        "editor.renderLineHighlight": "none",
-        // "editor.matchBrackets": "never"
-        // "editor.lightbulb.enabled": "off",
-        "editor.hover-.enabled": false,
-        // "editor.showFoldingControls"`: "never"
-        "editor.scrollbar.horizontal": "hidden",
-        "editor.scrollbar.vertical": "hidden",
-        "editor.overviewRulerBorder": false,
-        "editor.cursorBlinking": "solid",
-        "editor.cursorSmoothCaretAnimation": "on",
-        "editor.tabSize": 2,
-        "editor.detectIndentation": false,
-        "editor.fontFamily": "Space Mono, Menlo, Monaco, 'Courier New', monospace",
-        "editor.fontSize": 14,
-        // "editor.fontLigatures": true
-        "editor.lineHeight": 2,
-        "breadcrumbs.enabled": true,
-        "explorer.compactFolders": false, 
-        "git.decorations.enabled": false,
-        "scm.diffDecorations": "none",
-        "files.autoSave": "afterDelay",
-        "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
-        "terminal.integrated.tabs.enabled": false,
-        "terminal.integrated.lineHeight": 1.6,        
-        "terminal.integrated.fontFamily" : " Space Mono Nerd Font"
+  "remote.SSH.useLocalServer": false,
+  "apc.electron": {
+    "backgroundColor": "#1a1a1a",
+    "frame": true,
+    "transparent": true,
+    "titleBarStyle": "hiddenInset",
+    "vibrancy": "ultra-dark",
+    "trafficLightPosition": {
+      "x": 15,
+      "y": 13
     },
-    "editor.minimap.enabled": false,
-    "editor.guides.indentation": false,
-    "editor.renderWhitespace": "none",
-    "editor.renderLineHighlight": "none",
-    // "editor.matchBrackets": "never"
-    // "editor.lightbulb.enabled": "off",
-    "editor.hover.enabled": false,
-    // "editor.showFoldingControls": "never"
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
-    "editor.overviewRulerBorder": false,
-    "editor.cursorBlinking": "solid",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false,
-    "editor.fontFamily": "Space Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.lineHeight": 2,
-    "breadcrumbs.enabled": false,
-    "explorer.compactFolders": false,
-    "git.decorations.enabled": false,
-    "scm.diffDecorations": "none",
-    "files.autoSave": "afterDelay",
-    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
-    "terminal.integrated.lineHeight": 1.6,
-    "window.titleBarStyle": "native",
-    "apc.electron": {
-      "titleBarStyle": "hidden",
-    },
-    "apc.font.family": "Space Mono, Menlo, Monaco, 'Courier New', monospace",
-    "apc.menubar.compact": false,
-    "apc.activityBar": {
-      "size": 50,
-      "itemSize": 30,
-      "itemMargin": 10,
-    },
-    "apc.header": {
-      "height": 35
-    },
-    "apc.sidebar.titlebar": {
-      "height": 35,
-      "fontSize": 12
-    },
-    "apc.statusBar": {
-      "position": "bottom",
-      "height": 22,
-      "fontSize": 12
-    },
-    "apc.listRow": {
-      "lists": [
-        "explorer-folders-view",
-        "quick-input-list"
-      ],
-      "height": 30,
-    },
-    "apc.stylesheet": {
-      ".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
-      ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
-      ".sidebar .title-label": "padding: 0 !important",
-     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
-     ".sidebar": "border: none !important",
-     ".quick-input-list-row div": "display: flex !important; align-items: center !important",
-     ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
-     ".sidebar .title-label h2": "line-height: 2.8 !important",
-     ".monaco-editor .scroll-decoration": "display: none !important",
-     
-
-    },
-    "animations.Install-Method": "Apc Customize UI++",
-    "apc.imports": [
-      "file:///c:/Users/Bagas/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
-    ],
-    "terminal.integrated.profiles.windows": {
-      "PowerShell": {
-        "source": "PowerShell",
-        "icon": "terminal-powershell"
-      },
-      "Command Prompt": {
-        "path": [
-          "${env:windir}\\Sysnative\\cmd.exe",
-          "${env:windir}\\System32\\cmd.exe"
-        ],
-        "args": [],
-        "icon": "terminal-cmd"
-      },
-      "Git Bash": {
-        "source": "Git Bash"
-      },
-      "Windows PowerShell": {
-        "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
-      }
+    "trafficLightPositionRight": {
+      "x": 15,
+      "y": 13
     }
-
-    
+  },
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.sideBar.location": "left",
+  "workbench.tree.indent": 8,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.lineNumbers": "off",
+  "editor.lineHeight": 2.5,
+  "editor.fontSize": 14,
+  "editor.letterSpacing": 0.3,
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "apc.font.family": "GohuFont uni14 Nerd Font Mono",
+  "apc.header": {
+    "compact": 22,
+    "fontSize": 12,
+    "fontWeight": "bold"
+  },
+  "apc.sidebar.titlebar": {
+    "fontSize": 11,
+    "fontWeight": "bold"
+  },
+  "apc.stylesheet": {
+    ".tabs-container .tab.active": {
+      "border-radius": "7px !important"
+    },
+    ".scrollbar": {
+      "background": "#21222f !important"
+    }
+  },
+  "css.completion.triggerPropertyValueCompletion": false,
+  "github.copilot.chat.terminalChatLocation": "terminal",
+  "breadcrumbs.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "window.density.editorTabHeight": "compact",
+  "workbench.editor.showTabs": "single",
+  "workbench.tree.expandMode": "singleClick",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.location": "default",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "apc.menubar.compact": true,
+  "workbench.colorTheme": "GitHub Dark",
+  "editor.renderLineHighlight": "none",
+  "editor.minimap.enabled": false,
+  "title"
+// "workbench.colorCustomizations": {
+//   "titleBar.activeBackground": "#00000034",
+//   "titleBar.border": "#000000dc",
+//   "statusBar.border": "#000000dc",
+//   "sideBar.border": "#000000dc",
+//   "activityBar.border": "#000000dc",
+//   "statusBar.background": "#1A1A1A",
+//   "statusBar.noFolderBackground": "#212121",
+//   "statusBar.debuggingBackground": "#000000dc",
+//   },
+"workbench.productIconTheme": "material-product-icons",
+"animations.CursorAnimation": true,
+"editor.cursorSmoothCaretAnimation": "on",
+"cloudcode.project": "indigo-muse-452811-u7",
+"remote.SSH.remotePlatform": {
+  "abd-vm": "linux"
+},
+"workbench.colorCustomizations": {}
 }

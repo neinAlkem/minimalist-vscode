@@ -1,47 +1,48 @@
 # VS Code Minimalist Settings
-This repository contains a settings.json file designed to configure Visual Studio Code (VS Code) for a minimalist and distraction-free coding environment inpsired by Igor Babko (Youtube)
 
-![image](Screenshot2025-02-19-194220.png)
 
-## Configuration Overview
-General Settings
-- Window Zoom Level: Set to 0.5 to increase the overall UI size.
-- Color Theme: Uses Aura Dracula Spirit (Soft) for a soft, eye-friendly theme.
-- Icon Theme: Uses material-icon-theme for cleaner, consistent icons.
+![image](image1.png)
 
-## Explorer and Sidebar
-- Hide Explorer Arrows: true, hides arrows in the explorer for a cleaner look.
-- Sidebar Location: right, moves the sidebar to the right for a unique layout.
-- Tree Indent Guides: none, removes indentation guides in the file tree.
-- Sidebar Background: Customized to #191521 for a dark, uniform background.
+## ⚙️ Configuration Overview
+- Editor Zoom Level: Not explicitly set (defaults apply).
+- Color Theme: Set to GitHub Dark for a modern, dark interface.
+- Icon Theme: Uses material-icon-theme for consistent and clean icons.
+- Product Icon Theme: Set to material-product-icons.
 
-## Editor Settings
-- Tabs: Shows only a single tab, reducing clutter.
-- Minimap: Disabled for a cleaner interface.
-- Indentation Guides: Disabled for a minimalist look.
-- Whitespace: Hidden to avoid distractions.
-- Line Highlighting: Disabled for a distraction-free experience.
-- Cursor Blinking: Set to solid for a stable cursor.
-- Smooth Caret Animation: Enabled for smoother cursor movement.
-- Tab Size: Set to 2 for consistent indentation.
-- Font: Uses JetBrains Mono, Menlo, Monaco, 'Courier New', monospace for a clean and readable font.
-- Font Ligatures: Enabled for improved code readability.
-- Line Height: Set to 2 for better spacing.
-- Git Decorations: Disabled to reduce visual noise.
+## 📂 Explorer and Sidebar
+- Sidebar Location: Left (workbench.sideBar.location: left), default layout.
+- Indentation Guides: Disabled (renderIndentGuides: none) for a cleaner file tree.
+- Tree Sticky Scroll: Disabled to avoid sticky file headings.
+- Tree Expand Mode: Set to singleClick for quicker navigation.
+- Tree Indent: Set to 8 for more spacing between levels.
 
-## Custom UI Adjustments
-- Activity Bar: Customized to position at the bottom with specific size and margins.
-- Status Bar: Positioned at the bottom with adjusted height and font size.
-- Sidebar Title Bar: Customized height and font size for consistency.
-- List Rows: Customized height for explorer and quick input lists.
+## 🧑‍💻 Editor Settings
+- Line Numbers: Hidden for minimal distraction.
+- Font Family: JetBrainsMono Nerd Font with fallback to GohuFont uni14 Nerd Font Mono.
+- Font Size: 14, optimized for readability.
+- Line Height: 2.5, offering generous vertical spacing.
+- Letter Spacing: 0.3 for better character clarity.
+- Word Wrap: Enabled.
+- Line Highlighting: Disabled (renderLineHighlight: none).
+- Minimap: Disabled to reduce UI clutter.
+- Tabs: Only a single tab shown (showTabs: single) for a simplified layout.
+- Editor Tab Height: Compact (density.editorTabHeight: compact).
+- Editor Actions Location: Hidden.
 
-## Terminal Settings
-- Default Profile: Set to Windows PowerShell.
-- Terminal Tabs: Disabled for a cleaner terminal view.
-- Line Height: Set to 1.6 for improved readability.
+## 💡 Font Rendering and Animations
+- Font Ligatures: Not explicitly mentioned, assumed based on JetBrainsMono.
+- Smooth Caret Animation: Enabled (cursorSmoothCaretAnimation: on).
+- Cursor Animation: Enabled (animations.CursorAnimation: true).
+
+## 🧩 Terminal Settings
+- Default Profile: Windows PowerShell.
+- Tabs: Hidden for simplicity.
+- Line Height: Set to 1.6.
   
-## Additional Customizations
-- Custom Stylesheet: Applies various CSS tweaks for a cleaner interface, including:
-- Removing scroll decorations.
-- Adjusting padding and margins for various UI elements.
-- Aligning items and removing unnecessary borders.
+## 🌐 Miscellaneous
+- Breadcrumbs: Disabled for cleaner UI.
+- Layout Control: Disabled (layoutControl.enabled: false).
+- Command Center: Disabled (window.commandCenter: false).
+- CSS Completion: Property value auto-completion disabled.
+- Copilot Terminal Chat: Set to appear in terminal.
+- JSON Formatting: Uses Prettier (esbenp.prettier-vscode) as the default formatt
